@@ -163,7 +163,9 @@ header{
 }
 
 /* ct-1 */
+
 .content-1{
+    /* width: 1088px; */
     display: flex;
     justify-content: center;
 }
@@ -281,6 +283,7 @@ header{
     line-height: 28px;
     letter-spacing: 0%;
     text-decoration: underline;
+    text-underline-offset: 4px;
 }
 /* c-t-2 */
 .ct-1-cont-2{
@@ -506,12 +509,15 @@ header{
     line-height: 24px;
     letter-spacing: 0%;
 }
-.ct-3-see{
-    background-color: #ECE0CE;
-    color: #03363D;
-    /* width: 185.9375px; */
-    /* height: 40px; */
+.ct-3-see-box{
     padding: 8px 26px;
+    background-color: #ECE0CE;
+
+}
+.ct-3-see{
+    color: #03363D;
+    width: 134px;
+    /* height: 40px; */
     text-align: center;
     align-content: center;
     font-weight: 700;
@@ -672,6 +678,7 @@ header{
     width: 171.53125px;
     height: 21px;
     text-decoration: underline;
+    text-underline-offset: 4px;
     font-weight: 700;
     font-size: 17px;
     line-height: 28px;
@@ -706,6 +713,7 @@ header{
     width: 222.59375px;
     height: 21px;
     text-decoration: underline;
+    text-underline-offset: 4px;
     font-weight: 700;
     font-size: 17px;
     line-height: 28px;
@@ -853,6 +861,7 @@ header{
     font-size: 15px;
     line-height: 24px;
     text-decoration: underline;
+    text-underline-offset: 3px;
 }
 .readmore-box img{
     width: 24px;
