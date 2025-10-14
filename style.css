@@ -873,6 +873,12 @@ header{
     padding: 32px 8px 14px;
     gap: 16px;
 }
+.grid-box{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding-bottom: 2px;
+}
 .num-grid{
     font-weight: 700;
     font-size: 32px;
@@ -880,6 +886,7 @@ header{
     color: #03363D;
 }
 .num-content{
+    height: 30px;
     font-weight: 400;
     font-size: 13px;
     line-height: 100%;
