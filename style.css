@@ -772,7 +772,7 @@ header{
     display: flex;
     flex-direction: row;
     gap: 11px;
-    width: 1088px;
+    /* width: 1088px; */
     height: 42.984375px;
     margin-bottom: 38.5px;
 }
@@ -1085,4 +1085,9 @@ header{
 .container-2{
     display: flex;
     justify-content: center;
+}
+.control-band{
+    display: flex;
+    justify-content: center;
+    width: 1088px;
 }
