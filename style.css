@@ -1026,9 +1026,8 @@ header{
     width: 309.84375px;
     border: 1px solid #68737D;
     .input{
-        height: 18.4px;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 18.4px;
         line-height: 100%;
         color: #C2C8CC;
     }
