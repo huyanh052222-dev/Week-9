@@ -185,15 +185,19 @@ header{
 .ct-1-tit{
     width: 736px;
     height: 94px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    /* text-align: center;
     padding-left: 123.81px;
-    padding-right: 123.63px;
+    padding-right: 123.63px; */
 }
-.ct-1-tit-small-box{
+/* .ct-1-tit-small-box{
     display: flex;
     justify-content: center;
     margin-bottom: 16px;
-}
+} */
 .ct-1-tit-small{
     color: #03363D;
     width: 212.9343719482422px;
@@ -203,10 +207,10 @@ header{
     line-height: 22px;
     letter-spacing: 2px;
 }
-.ct-1-tit-big-box{
+/* .ct-1-tit-big-box{
     display: flex;
     justify-content: center;
-}
+} */
 .ct-1-tit-big{
     color: #03363D;
     width: 488.55938720703125px;
@@ -607,13 +611,17 @@ header{
 .ct-5-tit{
     width: 736px;
     height: 110px;
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
 }
-.ct-5-tit-small-box{
+/* .ct-5-tit-small-box{
     display: flex;
     justify-content: center;
     margin-bottom: 16px;
-}
+} */
 .ct-5-tit-small{
     color: #03363D;
     width: 209.3718719482422px;
@@ -623,10 +631,10 @@ header{
     line-height: 22px;
     letter-spacing: 2px;
 }
-.ct-5-tit-big-box{
+/* .ct-5-tit-big-box{
     display: flex;
     justify-content: center;
-}
+} */
 .ct-5-tit-big{
     color: #03363D;
     width: 464.95001220703125px;
@@ -739,13 +747,17 @@ header{
 .ct-6-tit{
     width: 736px;
     height: 110px;
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
 }
-.ct-6-tit-small-box{
+/* .ct-6-tit-small-box{
     display: flex;
     justify-content: center;
     margin-bottom: 16px;
-}
+} */
 .ct-6-tit-small{
     color: #03363D;
     width: 157.8718719482422px;
@@ -755,10 +767,10 @@ header{
     line-height: 22px;
     letter-spacing: 2px;
 }
-.ct-6-tit-big-box{
+/* .ct-6-tit-big-box{
     display: flex;
     justify-content: center;
-}
+} */
 .ct-6-tit-big{
     color: #03363D;
     width: 612.9812622070312px;
