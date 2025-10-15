@@ -595,6 +595,11 @@ header{
     letter-spacing: 0%;
 }
 .ct-4-but-2{
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+}
+.ct-4-but-2 img{
     width: 24px;
     height: 24px;
 }
@@ -637,6 +642,10 @@ header{
     display: flex;
     justify-content: center;
 } */
+ .arr-2{
+    display: flex;
+    align-items: center;
+ }
 .ct-5-tit-big{
     color: #03363D;
     width: 464.95001220703125px;
@@ -681,6 +690,7 @@ header{
 .ct-5-button{
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 28px;
 }
 .ct-5-but-1{
@@ -1026,7 +1036,9 @@ header{
     width: 1104px;
     height: 64px;
 }
-
+#line{
+    width: 1088px;
+}
 .ct-8-2-container{
     display: flex;
     flex-direction: row;
@@ -1106,4 +1118,9 @@ header{
     display: flex;
     justify-content: center;
     width: 1088px;
+}
+.arr{
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
 }
