@@ -176,12 +176,18 @@ header{
 }
 .ct-1{
     height: 514px;
-    padding: 64px 176px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 64px 176px; */
 }
 .ct-1-tit-box{
     display: flex;
     justify-content: center;
-    padding: 0px 176px 64px;
+    /* padding: 0px 176px 64px; */
+    text-align: center;
+    align-items: center;
+    height: 158px;
 }
 .ct-1-tit{
     width: 736px;
