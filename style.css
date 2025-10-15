@@ -772,8 +772,11 @@ header{
     justify-content: center;
 }
 .ct-6{
-    padding: 64px 176px;
-    height: 878px;
+    /* padding: 64px 176px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1006px;
 }
 .ct-6-tit-box{
     display: flex;
