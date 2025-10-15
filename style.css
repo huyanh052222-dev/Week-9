@@ -25,14 +25,18 @@ header{
     width: 1088px;
     height: 82px;
 }
-
+.section-b {
+    background-color: #587052;
+    width: 100%;
+    height: 753px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
 /* Hero */
 .hero{
     background-color: #577052;
-    padding-top: 40px;
-    padding-bottom: 64px;
-    padding-left: 168px;
-    padding-right: 168px;
+    padding: 40px 168px 64px;
 }
 .hero-container{
     display: flex;
@@ -244,6 +248,8 @@ header{
 .ct-1-1-img-box{
     display: flex;
     justify-content: center;
+    /* height: 132px;
+    align-items: center; */
     padding: 24px 144px 44px;
 }
 
@@ -405,7 +411,10 @@ header{
     height: 447px;
 }
 .ct-2-c{
-    padding: 70.5px 0px;
+    /* padding: 70.5px 0px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .ct-2-c-box{
     padding-left: 8px;
@@ -475,10 +484,12 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    /* text-align: center; */
     gap: 32px;
-    /* height: 299px; */
-    /* width: 1088px; */
-    padding: 64px 56px 67px;
+    height: 299px;
+    width: 1088px;
+    /* padding: 64px 56px 67px; */
     img{
         width: 168px;
         height: 168px;
@@ -608,7 +619,9 @@ header{
 .ct-5-tit-box{
     display: flex;
     justify-content: center;
-    padding: 0px 176px 64px;
+    height: 174px;
+
+    /* padding: 0px 176px 64px; */
 }
 .ct-5-tit{
     width: 736px;
@@ -752,7 +765,7 @@ header{
 .ct-6-tit-box{
     display: flex;
     justify-content: center;
-    padding: 0px 176px;
+    /* padding: 0px 176px; */
 }
 .ct-6-tit{
     width: 736px;
