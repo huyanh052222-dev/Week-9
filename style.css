@@ -35,10 +35,10 @@ header{
     align-items: center;
 }
 /* Hero */
-.hero{
+/* .hero{
     background-color: #577052;
     padding: 40px 168px 64px;
-}
+} */
 .hero-container{
     position: absolute;
     display: flex;
@@ -184,7 +184,7 @@ header{
     height: 64px;
 }
 .ct-1{
-    height: 514px;
+    height: 642px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -401,9 +401,11 @@ header{
 /* ct-2 */
 .ct-2{
     height: 447px;
-    padding: 64px 168px;
+    /* padding: 64px 168px; */
+    height: 575px;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #F8F9F9;
 }
 .ct-2-box{
@@ -479,9 +481,11 @@ header{
 /* ct-3 */
 .ct-3{
     background-color: #F8F9F9;
-    padding: 64px 176px;
+    /* padding: 64px 176px; */
+    height: 427px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .ct-3-content{
@@ -544,9 +548,11 @@ header{
 }
 
 .ct-4{
-    padding: 64px 168px;
+    /* padding: 64px 168px; */
+    height: 499px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .ct-4-container{
     display: flex;
@@ -616,7 +622,9 @@ header{
 }
 .ct-5{
     background-color: #F8F9F9;
-    padding: 64px 176px;
+    /* padding: 64px 176px; */
+    height: 658px;
+    align-items: center;
     display: flex;
     justify-content: center;
 }
@@ -934,10 +942,12 @@ header{
     color: #17494D;
 }
 .ct-7{
-    padding: 64px 168px;
+    /* padding: 64px 168px; */
+    height: 572px;
     background-color: #587052;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .ct-7-container{
     width: 1104px;
@@ -989,9 +999,11 @@ header{
     padding-right: 27.66px;
 }
 .ct-8{
-    padding: 0px 160px 32px;
+    /* padding: 0px 160px 32px; */
+    height: 719.6px;
     display: flex;
     justify-content: center;
+    /* align-items: center; */
     background-color: #F8F9F9;
 }
 .ct-8-container{
