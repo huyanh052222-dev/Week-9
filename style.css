@@ -865,7 +865,8 @@ header{
     margin-bottom: 14.98px;
 }
 .ct-6-content-box{
-    padding: 64px 8px 0px;
+    padding: 0px 8px 0px;
+    margin-top: 64px;
 }
 .ct-6-review-container{
     display: flex;
@@ -1003,7 +1004,7 @@ header{
 }
 .ct-8{
     /* padding: 0px 160px 32px; */
-    height: 719.6px;
+    height: 730.6px;
     display: flex;
     justify-content: center;
     align-items: center;
