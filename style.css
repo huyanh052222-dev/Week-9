@@ -1031,6 +1031,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 1104px;
     .ct-8-2-enter{
         margin-right: 16px;
         width: 260px;
