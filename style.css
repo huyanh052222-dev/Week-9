@@ -1013,11 +1013,11 @@ header{
     width: 1120px;
 }
 .logo-box{
-    padding-top: 64px;
+    /* padding-top: 64px; */
     padding-left: 8px;
-    padding-bottom: 23px;
+    /* padding-bottom: 23px; */
     width: 100%px;
-    height: 32px;
+    height: 55px;
 }
 .grid-6-box{
     display: grid;
