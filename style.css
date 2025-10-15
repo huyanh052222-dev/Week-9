@@ -32,6 +32,7 @@ header{
     height: 753px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 /* Hero */
 .hero{
@@ -39,10 +40,14 @@ header{
     padding: 40px 168px 64px;
 }
 .hero-container{
+    position: absolute;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 1104px;
+    height: 515px;
+    top: 174px;
     gap: 100px;
-    padding-right: 73px;
 }
 .hero-content{
     display: flex;
