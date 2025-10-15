@@ -1006,11 +1006,14 @@ header{
     height: 719.6px;
     display: flex;
     justify-content: center;
+    align-items: center;
     /* align-items: center; */
     background-color: #F8F9F9;
 }
 .ct-8-container{
     width: 1120px;
+    /* height: 706px; */
+    /* display: f; */
 }
 .logo-box{
     /* padding-top: 64px; */
