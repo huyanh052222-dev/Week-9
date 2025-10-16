@@ -774,9 +774,14 @@ body{
     line-height: 56px;
     letter-spacing: 0%;
 }
+.arr-move-box{
+    display: flex;
+    align-items: center;
+}
 .ct-6-brand-sw{
     display: flex;
     flex-direction: row;
+    align-self: center;
     gap: 11px;
     height: 42.984375px;
     margin-bottom: 38.5px;
