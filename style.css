@@ -385,19 +385,20 @@ body{
     display: flex;
     flex-direction: row;
     gap: 100px;
-    width: 1104px;
+    /* width: 1104px; */
     height: 447px;
 }
 .ct-2-c{
     display: flex;
-    justify-content: center;
+    width: 552px;
+    /* justify-content: center; */
     align-items: center;
 }
 /* ok */
 .ct-2-c-box{
-    position: relative;
+    /* position: relative;
     left: 8px;
-    top: 3px;
+    top: 3px; */
 }
 .ct-2-1-c{
     color: #03363D;
