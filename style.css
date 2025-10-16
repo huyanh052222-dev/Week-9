@@ -932,7 +932,6 @@ body{
 }
 .ct-7-content{
     padding: 4px 8px 0px;
-    /* Cho nay can padding ko */
 }
 .ct-7-head{
     color: #FFFFFF;
@@ -977,8 +976,6 @@ body{
     height: 705px;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    /* align-items: center; */
     background-color: #F8F9F9;
 }
 .ct-8-1{
@@ -1103,7 +1100,6 @@ body{
 }
 .ct-8-3{
     padding: 24px 8px 0px;
-    /* Cho nay can padding ko */
     width: 1104px;
 }
 .ct-8-footer{
