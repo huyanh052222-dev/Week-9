@@ -976,9 +976,13 @@ body{
     height: 705px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     /* align-items: center; */
     background-color: #F8F9F9;
+}
+.ct-8-1{
+    padding-top: 64px;
+    /* cho khoang cach logo voi border */
 }
 /* ok */
 .ct-8-container{
