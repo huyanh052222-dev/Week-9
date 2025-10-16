@@ -380,8 +380,8 @@ body{
 /* ok */
 .ct-2-box{
     background-color: #F8F9F9;
-    padding-left: 8px;
-    /* padding nay can thiet ko, do no giong figma */
+    position: relative;
+    left: 8px;
     display: flex;
     flex-direction: row;
     gap: 100px;
@@ -395,10 +395,9 @@ body{
 }
 /* ok */
 .ct-2-c-box{
-    padding-left: 8px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    /* Cho nay can thiet ko nhi */
+    position: relative;
+    left: 8px;
+    top: 3px;
 }
 .ct-2-1-c{
     color: #03363D;
@@ -529,15 +528,13 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* width: 1104px; */
-    /* Co can width ko nhi */
     gap: 100px;
 }
 .ct-4-box{
-    /* Cho nay can padding ko nhi */
-    padding-left: 8px;
-    padding-right: 9px;
-    padding-top: 3px;
+    position: relative;
+    left: 8px;
+    top: 3px;
+    width: 552px;
     padding-bottom: 5px;
     color: #03363D;
 }
@@ -854,7 +851,7 @@ body{
 .ct-6-user{
     padding-top: 8px;
     padding-bottom: 14px;
-    /* Cho nay can padding ko */
+    margin-bottom: 24px;
 }
 .user-name{
     font-weight: 700;
@@ -891,7 +888,6 @@ body{
     display: grid;
     grid-template-columns: repeat(4, minmax(100px, 106.66px));
     padding: 32px 8px 14px;
-    /* cho nay can padding ko */
     gap: 16px;
 }
 .grid-box{
