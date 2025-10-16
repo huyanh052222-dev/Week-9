@@ -2,29 +2,6 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-/* Header */
-header{
-    display: flex;
-    justify-content: center;
-    padding: 0px 168px;
-    background-color: #577052;
-}
-.container-nav{
-    display: flex;
-    flex-direction: column;
-}
-.secondary-nav{
-    width: 1104px;
-    height: 28px;
-}
-.container-main-nav{
-    display: flex;
-    justify-content: center;
-}
-.main-nav{
-    width: 1088px;
-    height: 82px;
-}
 .section-b {
     position: relative;
     background-color: #587052;
@@ -34,12 +11,8 @@ header{
     justify-content: center;
     align-items: center;
 }
-/* Hero */
-/* .hero{
-    background-color: #577052;
-    padding: 40px 168px 64px;
-} */
 .hero-container{
+    align-items: center;
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -49,11 +22,11 @@ header{
     top: 174px;
     gap: 100px;
 }
+/* oke */
 .hero-content{
     display: flex;
     flex-direction: column;
     height: 450px;
-    padding: 32.5px 0px;
 }
 .he-text-1{
     width: 206.9812469482422px;
@@ -68,6 +41,7 @@ header{
 }
 .h-t-in{
     padding-left: 8px;
+    /* Can padding ko?? */
 }
 .he-text-2{
     width: 494.27813720703125px;
@@ -100,6 +74,7 @@ header{
     align-content: center;
     color: #09363c;
     background-color: #ECE0CE;
+    /* Cho nay figma co padding */
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 27px;
@@ -114,6 +89,7 @@ header{
     align-content: center;
     color: #ECE0CE;
     border: 2px solid #ECE0CE;
+    /* Cho nay figma co padding */
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 28px;
@@ -136,17 +112,19 @@ header{
 .brand-logo{
     display: flex;
     justify-content: center;
-    padding: 64px 176px;
+    align-items: center;
+    height: 166px;
 }
+/* Ok */
 .br-lg-box{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
-    padding: 0px 70.5px;
     width: 1088px;
     height: 38px;
 }
+/* ok */
 #lg1{
     width: 106px;
     height: 27px;
@@ -171,11 +149,10 @@ header{
     width: 173px;
     height: 38px;
 }
-
+/* ok */
 /* ct-1 */
 
 .content-1{
-    /* width: 1088px; */
     display: flex;
     justify-content: center;
 }
@@ -188,16 +165,16 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 64px 176px; */
 }
+/* ok */
 .ct-1-tit-box{
     display: flex;
     justify-content: center;
-    /* padding: 0px 176px 64px; */
     text-align: center;
     align-items: center;
     height: 158px;
 }
+/* ok */
 .ct-1-tit{
     width: 736px;
     height: 94px;
@@ -205,15 +182,9 @@ header{
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    /* text-align: center;
-    padding-left: 123.81px;
-    padding-right: 123.63px; */
 }
-/* .ct-1-tit-small-box{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 16px;
-} */
+/* ok */
+
 .ct-1-tit-small{
     color: #03363D;
     width: 212.9343719482422px;
@@ -223,10 +194,7 @@ header{
     line-height: 22px;
     letter-spacing: 2px;
 }
-/* .ct-1-tit-big-box{
-    display: flex;
-    justify-content: center;
-} */
+
 .ct-1-tit-big{
     color: #03363D;
     width: 488.55938720703125px;
@@ -236,7 +204,7 @@ header{
     line-height: 40px;
     letter-spacing: 0%;
 }
-
+/* ok */
 
 .ct-1-content{
     display: flex;
@@ -244,8 +212,8 @@ header{
     gap: 16px;
     width: 1088px;
     height: 356px;
-    padding: 0px 8px;
 }
+/* ok */
 .ct-1-cont-1{
     width: 352px;
     height: 356px;
@@ -253,11 +221,10 @@ header{
 .ct-1-1-img-box{
     display: flex;
     justify-content: center;
-    /* height: 132px;
-    align-items: center; */
-    padding: 24px 144px 44px;
+    align-items: center;
+    height: 132px;
 }
-
+/* ok */
 .ct-1-1-h-box{
     display: flex;
     justify-content: center;
@@ -293,7 +260,6 @@ header{
     justify-content: center;
     align-content: center;
     height: 28px;
-    /* padding: 0px 64.31px 24px; */
 }
 .option-text-1{
     color: #17494D;
@@ -312,9 +278,10 @@ header{
 .ct-1-2-img-box{
     display: flex;
     justify-content: center;
-    padding: 24px 144px 44px;
+    align-items: center;
+    height: 132px;
 }
-
+/* ok */
 .ct-1-2-h-box{
     display: flex;
     justify-content: center;
@@ -349,8 +316,9 @@ header{
     justify-content: center;
     align-content: center;
     height: 28px;
-    /* padding: 0px 64.31px 24px; */
 }
+/* ok */
+
 /* c-t-3 */
 .ct-1-cont-3{
     width: 352px;
@@ -359,9 +327,10 @@ header{
 .ct-1-3-img-box{
     display: flex;
     justify-content: center;
-    padding: 24px 144px 44px;
+    align-items: center;
+    height: 132px;
 }
-
+/* ok */
 .ct-1-3-h-box{
     display: flex;
     justify-content: center;
@@ -396,21 +365,23 @@ header{
     justify-content: center;
     align-content: center;
     height: 28px;
-    /* padding: 0px 64.31px 24px; */
 }
+/* ok */
+
 /* ct-2 */
 .ct-2{
     height: 447px;
-    /* padding: 64px 168px; */
     height: 575px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #F8F9F9;
 }
+/* ok */
 .ct-2-box{
     background-color: #F8F9F9;
     padding-left: 8px;
+    /* padding nay can thiet ko, do no giong figma */
     display: flex;
     flex-direction: row;
     gap: 100px;
@@ -418,15 +389,16 @@ header{
     height: 447px;
 }
 .ct-2-c{
-    /* padding: 70.5px 0px; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/* ok */
 .ct-2-c-box{
     padding-left: 8px;
     padding-top: 3px;
     padding-bottom: 3px;
+    /* Cho nay can thiet ko nhi */
 }
 .ct-2-1-c{
     color: #03363D;
@@ -477,34 +449,32 @@ header{
     height: 24px;
     margin-top: 0px;
 }
+/* ok */
 
 /* ct-3 */
 .ct-3{
     background-color: #F8F9F9;
-    /* padding: 64px 176px; */
     height: 427px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+/* ok */
 .ct-3-content{
     background-color: #03363D;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
-    /* text-align: center; */
+    align-items: center;
     gap: 32px;
     height: 299px;
     width: 1088px;
-    /* padding: 64px 56px 67px; */
     img{
         width: 168px;
         height: 168px;
     }
 }
-
+/* ok */
 .ct-3-c-box{
     width: 558.0625px;
     height: 104px;
@@ -532,13 +502,13 @@ header{
 }
 .ct-3-see-box{
     padding: 8px 26px;
+    /* Cho nay padding theo figma */
     background-color: #ECE0CE;
 
 }
 .ct-3-see{
     color: #03363D;
     width: 134px;
-    /* height: 40px; */
     text-align: center;
     align-content: center;
     font-weight: 700;
@@ -546,25 +516,25 @@ header{
     line-height: 24px;
     letter-spacing: 0%;
 }
-
+/* ok */
+/* ct-4 */
 .ct-4{
-    /* padding: 64px 168px; */
     height: 499px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/* ok */
 .ct-4-container{
     display: flex;
     flex-direction: row;
     align-items: center;
     /* width: 1104px; */
+    /* Co can width ko nhi */
     gap: 100px;
-
 }
 .ct-4-box{
-    /* width: 552px; */
-    /* height: 250px; */
+    /* Cho nay can padding ko nhi */
     padding-left: 8px;
     padding-right: 9px;
     padding-top: 3px;
@@ -620,36 +590,32 @@ header{
     width: 24px;
     height: 24px;
 }
+/* ok */
+
+/* ct-5 */
 .ct-5{
     background-color: #F8F9F9;
-    /* padding: 64px 176px; */
     height: 658px;
-    align-items: center;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-
+/* ok */
 .ct-5-tit-box{
     display: flex;
     justify-content: center;
     height: 174px;
-
-    /* padding: 0px 176px 64px; */
 }
+/* ok */
 .ct-5-tit{
     width: 736px;
     height: 110px;
-    /* text-align: center; */
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
 }
-/* .ct-5-tit-small-box{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 16px;
-} */
+
 .ct-5-tit-small{
     color: #03363D;
     width: 209.3718719482422px;
@@ -659,10 +625,7 @@ header{
     line-height: 22px;
     letter-spacing: 2px;
 }
-/* .ct-5-tit-big-box{
-    display: flex;
-    justify-content: center;
-} */
+
  .arr-2{
     display: flex;
     align-items: center;
@@ -683,8 +646,8 @@ header{
     text-align: center;
     align-items: center;
     gap: 16px;
-    padding: 0px 8px;
 }
+/* ok */
 #img64{
     width: 64px;
     height: 64px;
@@ -767,12 +730,13 @@ header{
     flex-direction: column;
     align-items: center;
 }
+/* ok */
+/* ct-6 */
 .center-box{
     display: flex;
     justify-content: center;
 }
 .ct-6{
-    /* padding: 64px 176px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -781,22 +745,16 @@ header{
 .ct-6-tit-box{
     display: flex;
     justify-content: center;
-    /* padding: 0px 176px; */
 }
 .ct-6-tit{
     width: 736px;
     height: 110px;
-    /* text-align: center; */
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
 }
-/* .ct-6-tit-small-box{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 16px;
-} */
+
 .ct-6-tit-small{
     color: #03363D;
     width: 157.8718719482422px;
@@ -806,10 +764,7 @@ header{
     line-height: 22px;
     letter-spacing: 2px;
 }
-/* .ct-6-tit-big-box{
-    display: flex;
-    justify-content: center;
-} */
+
 .ct-6-tit-big{
     color: #03363D;
     width: 612.9812622070312px;
@@ -823,7 +778,6 @@ header{
     display: flex;
     flex-direction: row;
     gap: 11px;
-    /* width: 1088px; */
     height: 42.984375px;
     margin-bottom: 38.5px;
 }
@@ -865,22 +819,26 @@ header{
     margin-bottom: 14.98px;
 }
 .ct-6-content-box{
-    /* padding: 0px 8px 0px; */
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-top: 64px;
 }
+/* ok */
 .ct-6-review-container{
     display: flex;
     justify-content: center;
 }
 .ct-6-review-box{
     width: 474.65625px;
-    height: 390px;
-    padding: 64px 122.67px ;
+    height: 518px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
+/* ok */
 .ct-6-text{
     font-weight: 400;
     font-size: 22px;
@@ -891,6 +849,7 @@ header{
 .ct-6-user{
     padding-top: 8px;
     padding-bottom: 14px;
+    /* Cho nay can padding ko */
 }
 .user-name{
     font-weight: 700;
@@ -927,6 +886,7 @@ header{
     display: grid;
     grid-template-columns: repeat(4, minmax(100px, 106.66px));
     padding: 32px 8px 14px;
+    /* cho nay can padding ko */
     gap: 16px;
 }
 .grid-box{
@@ -934,6 +894,7 @@ header{
     flex-direction: column;
     gap: 18px;
     padding-bottom: 2px;
+    /* Cho giong figma */
 }
 .num-grid{
     font-weight: 700;
@@ -948,8 +909,9 @@ header{
     line-height: 100%;
     color: #17494D;
 }
+/* ok */
+/* ct-7 */
 .ct-7{
-    /* padding: 64px 168px; */
     height: 572px;
     background-color: #587052;
     display: flex;
@@ -969,6 +931,7 @@ header{
 }
 .ct-7-content{
     padding: 4px 8px 0px;
+    /* Cho nay can padding ko */
 }
 .ct-7-head{
     color: #FFFFFF;
@@ -986,13 +949,14 @@ header{
 .ct-7-but-1{
     background-color: #ECE0CE;
     color: #03363D;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 28px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 26px;
     padding-right: 27.19px;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 28px;
+    /* padding theo figma */
 }
 .ct-7-but-2{
     color: #ECE0CE;
@@ -1004,31 +968,31 @@ header{
     padding-bottom: 10px;
     padding-left: 26px;
     padding-right: 27.66px;
+    /* padding theo figma */
 }
+/* ok */
+/* ct-8 */
 .ct-8{
-    /* padding: 0px 160px 32px; */
-    height: 730.6px;
+    height: 705px;
     display: flex;
     justify-content: center;
     align-items: center;
     /* align-items: center; */
     background-color: #F8F9F9;
 }
+/* ok */
 .ct-8-container{
     width: 1120px;
-    /* height: 706px; */
-    /* display: f; */
 }
 .logo-box{
-    /* padding-top: 64px; */
     padding-left: 8px;
-    /* padding-bottom: 23px; */
     width: 100%px;
     height: 55px;
 }
 .grid-6-box{
     display: grid;
     grid-template-columns: repeat(6, minmax(50px,284px));
+    height: 397px;
 }
 .box-up-box{
     padding: 4px 8px 0px;
@@ -1045,10 +1009,10 @@ header{
     flex-direction: column;
     gap: 9px;
 }
+/* ok */
 .five-box-nor{
-    padding: 3px 8px 16px;
+    padding: 3px 8px 0px;
     .head-box{
-        /* width: 125.15312194824219px; */
         color: #03363D;
         font-weight: 700;
         font-size: 12px;
@@ -1105,6 +1069,7 @@ header{
 }
 .input-text{
     padding: 14px 12px;
+    /* padding theo figma */
     width: 309.84375px;
     border: 1px solid #68737D;
     .input{
@@ -1133,6 +1098,7 @@ header{
 }
 .ct-8-3{
     padding: 24px 8px 0px;
+    /* Cho nay can padding ko */
     width: 1104px;
 }
 .ct-8-footer{
